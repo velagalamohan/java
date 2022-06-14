@@ -10,15 +10,11 @@ System.out.println("we can enter class");
 System.out.println("we can enter method");
 	}
 	
-	public void stepThree() {
-System.out.println("we can enter object");
-	}
-	
 	public static void main(String[] args) {
 		SimpleProgram s = new SimpleProgram();
 		s.stepOne();
 		s.stepTwo();
-		s.stepThree();
+		
 	}
 
 }
